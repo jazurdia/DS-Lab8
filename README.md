@@ -1,6 +1,11 @@
 # DS-Lab8
 ## Informe de Reflexión - Puesta en Producción de un Modelo de ML
 
+Realizado por:
+- Javier Alejandro Azurdia Arrecis 21242
+- Diego Alejandro Morales Escobar 21146
+- Angel Sebastian Castellanos Pineda 21700
+
 ### Desafíos durante la selección del modelo y puesta en producción  
 Uno de los mayores desafíos fue identificar el modelo más adecuado para los datos proporcionados. Implementamos tres algoritmos: Regresión Lineal, Random Forest y Gradient Boosting. Aunque los modelos de ensamble suelen ser más robustos para relaciones complejas, descubrimos que la Regresión Lineal superaba a los otros en este caso, debido a que los datos presentaban relaciones mayormente lineales. Además, la limpieza y preprocesamiento del dataset representaron un reto importante, especialmente al manejar valores atípicos y transformar variables categóricas mediante *one-hot encoding* para asegurar compatibilidad con los modelos.
 
